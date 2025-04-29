@@ -18,3 +18,39 @@ OpenAI API key
 Pinecone API key
 Pinecone environment
 
+
+
+# AI Agent Project
+
+A full-stack AI agent using Next.js frontend and FastAPI backend.
+
+## Setup
+
+### Backend
+1. Create and activate virtual environment:
+
+
+python
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
+
+2. Install dependencies:
+
+bash
+npm install
+npm install axios @types/axios
+
+2. Run the development server:
+
+bash:README.md
+npm run dev
+
+
+## Environment Variables
+Backend:
+- OPENAI_API_KEY
+- PINECONE_API_KEY
+- PINECONE_ENVIRONMENT
+
+Frontend:
+- NEXT_PUBLIC_API_URL=http://localhost:8000
